@@ -40,7 +40,7 @@ export default function DocumentsPage() {
         className="hidden dark:block"
       />
       <h2 className="text-lg font-medium">
-        Welcome to {user?.firstName}&apos;' Notion
+        Welcome to {user?.firstName}&apos;s Notion
       </h2>
       <Button onClick={onCreate}>
         <PlusCircle className="w-4 h-4 mr-2" />
